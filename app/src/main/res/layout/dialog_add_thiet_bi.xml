@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Thêm Thiết bị"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:background="@drawable/botron_button"
+        android:id="@+id/edMaThietBi"
+        android:hint="Mã thiết bị"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:background="@drawable/botron_button"
+        android:id="@+id/edTenThietBi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên thiết bị"/>
+    <Spinner
+        android:layout_margin="5dp"
+        android:id="@+id/spnLoaiTB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:background="@drawable/botron_button"
+        android:id="@+id/edHangSX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hãng sản xuất"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:background="@drawable/botron_button"
+        android:id="@+id/edSoLuong"
+        android:hint="Số lượng"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="5dp"
+        android:background="@drawable/botron_button"
+        android:id="@+id/edGiaBan"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá bán (triệu đồng)"/>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btAddThietBi"
+            android:layout_weight="1"
+            android:background="@drawable/bo_tron"
+            android:text="Add"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:background="@drawable/botron_button"
+            android:id="@+id/btCancelThietBi"
+            android:layout_weight="1"
+            android:text="cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

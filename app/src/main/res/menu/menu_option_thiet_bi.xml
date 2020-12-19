@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_update_thiet_bi"
+        android:title="sửa thiết bị"/>
+    <item
+        android:title="xóa thiết bị"
+        android:id="@+id/menu_delete_thiet_bi"/>
+    <item
+        android:title="chi tiết thiết bị"
+        android:id="@+id/menu_thiet_bi_detail"/>
+
+</menu>

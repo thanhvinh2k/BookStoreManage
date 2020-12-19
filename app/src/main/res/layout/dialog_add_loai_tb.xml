@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:text="Thêm loại thiết bị"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/botron_button"
+        android:id="@+id/edMaLoaiTB"
+        android:hint="mã loại thiết bị"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/botron_button"
+        android:id="@+id/edLoaiTB"
+        android:hint="loại thiết bị"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:background="@drawable/botron_button"
+        android:id="@+id/edViTri"
+        android:hint="vị trí"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/bo_tron"
+            android:textColor="#ffffff"
+            android:id="@+id/btAddLoaiTB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/botron_button"
+            android:id="@+id/btCancelLoaiTB"
+            android:layout_weight="1"
+            android:text="cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

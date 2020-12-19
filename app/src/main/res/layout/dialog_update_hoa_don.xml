@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#005EFF"
+        android:text="Update hóa đơn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_margin="10dp"
+
+
+
+
+
+
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:background="@drawable/botron_button"
+            android:id="@+id/edUpdateHD_ngayMua"
+            android:hint="ngày mua"
+            android:layout_weight="5.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_weight="0.5"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/botron_button"
+            android:id="@+id/btUpdateHD_pickDate"
+            android:text="Date"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@drawable/bo_tron"
+            android:id="@+id/btSaveUDHD"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:background="@drawable/botron_button"
+            android:id="@+id/btCancelUDHD"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

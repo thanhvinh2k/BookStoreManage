@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="7"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_weight="6"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvHDCT_MaTB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="ma thiet bi"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvHDCT_SoLuongMua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="so luong mua"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/tvHDCT_GiaBan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gia ban"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:textColor="#C8EC0000"
+            android:id="@+id/tvHDCT_ThanhTien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Thành tiền"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgHDCT_delete"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_close"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_update_ltb"
+        android:title="sửa loại thiết bị"/>
+    <item
+        android:title="xóa loại thiết bị"
+        android:id="@+id/menu_delete_ltb"/>
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:text="Thêm hóa đơn"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/botron_button"
+        android:id="@+id/edAddHD_MaHoaDon"
+        android:hint="Mã hóa đơn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:weightSum="7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:background="@drawable/botron_button"
+            android:id="@+id/edAddHD_NgayMua"
+            android:hint="Ngày Mua"
+            android:layout_weight="6.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:background="@drawable/botron_button"
+            android:id="@+id/btAddHD_PickDate"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.5"
+            android:text="Date"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"/>
+    </LinearLayout>
+    <Button
+        android:layout_margin="10dp"
+        android:background="@drawable/bo_tron"
+        android:id="@+id/btAddHoaDon"
+        android:text="Thêm hóa đơn"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

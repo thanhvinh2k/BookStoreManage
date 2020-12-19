@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#242424"
+        android:text="Chi tiết thiết bị"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/tvMaTBDetail"
+        android:text="Mã thiết bị"
+        android:textColor="#014DEC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/tvThietBiDetail"
+        android:text="Tên thiết bị"
+        android:textColor="#014DEC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/tvLoaiTBDetail"
+        android:text="Loại thiết bị"
+        android:textColor="#014DEC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/tvHSXDetail"
+        android:text="Hãng sản xuất"
+        android:textColor="#014DEC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/tvSoLuongDetail"
+        android:text="Số lượng"
+        android:textColor="#014DEC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/tvGiaBanDetail"
+        android:text="Giá bán"
+        android:textColor="#014DEC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
